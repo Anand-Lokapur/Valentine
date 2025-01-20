@@ -89,6 +89,9 @@
       valentineQuestion.textContent = "Yayyy!! :3"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
+      const url = "OfCourse Babee!! I will be your Valentine.Who else could it be, I LOVE YOU!!!";
+      const encodedURL = encodeURI(url);
+      window.location.href=`https://wa.me/918050128015?text=${encodedURL}`
     });
   </script>  
 </body>
